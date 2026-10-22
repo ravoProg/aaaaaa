@@ -44,7 +44,7 @@
             hCtx.fillStyle = 'white';
             hCtx.textAlign = 'center';
             hCtx.textBaseline = 'middle';
-            hCtx.fillText("LU♥", width / 2, height / 2);
+            hCtx.fillText("LU❤️", width / 2, height / 2);
             
             const imageData = hCtx.getImageData(0, 0, width, height).data;
             particles = [];
@@ -101,7 +101,7 @@
                 
                 if (p.opacity > 0) {
                     // Color rojo para el corazón (lado derecho) y blanco para "LU"
-                    if (p.x > width * 0.56) {
+                    if (p.x > width * 0.58) {
                         ctx.fillStyle = `rgba(230, 0, 35, ${p.opacity})`;
                     } else {
                         ctx.fillStyle = `rgba(255, 255, 255, ${p.opacity})`;
